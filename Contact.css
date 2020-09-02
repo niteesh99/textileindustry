@@ -1,0 +1,276 @@
+    
+.container-fluid{
+    background-color:rgb(1, 9, 14);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}   
+header{
+    font: italic 70px 'Creepster',Cursive;
+    color:rgb(32, 214, 238);
+    text-align: center; 
+}
+#mainNavBar a{
+  text-align: center;
+  font: 18px 'Hind';
+  color: antiquewhite;
+}
+    li.one{
+      font: 18px 'Hind';
+        color: antiquewhite;
+      display: inline-block;
+      margin: 0px;
+      width: 20px;
+      margin-right:180px;
+      
+      }
+    
+  #mainNavBar a{
+    text-align: center;
+    font-size: 10px;
+    font: 20px 'Hind';
+}
+
+#mainNavBar li {
+
+  display: inline-block;
+  margin: 0;
+  margin-right: 39px;
+  
+  }
+  .navbar{
+    background-color: black; 
+    
+  }
+  li.one{
+    font: 18px 'Hind';
+      color: antiquewhite;
+    display: inline-block;
+    margin: 0;
+    margin-right:180px;
+    
+    }
+    #mainNavBar a:hover {
+      color: #0f23d6;
+    }
+  
+h1{
+    text-align: center;
+    font: bold 50px 'Akronim';
+    color:rgb(119, 232, 247);
+}
+h2{
+    text-align: center;
+    font: bold 40px 'Hind';
+    color: rgb(251, 248, 255);
+}
+h3{
+    text-align: left;
+    font: bold 30px 'Hind';
+    color: rgb(250, 246, 255);
+    
+}
+.box{
+    
+    border: 3px solid black;
+    box-shadow: 5px 10px #0e0d0d;
+    margin: 25px;
+    background-color: rgb(23, 214, 228);
+    padding: 35px;
+    float: right;
+    box-shadow: 20px rgb(11, 226, 208);
+}
+.firstname{
+    font: bold 25px 'Hind';
+}
+.lastname{
+    font: bold 25px 'Hind';  
+}
+.mail{
+    font: bold 25px 'Hind';
+}
+.message{
+    font: bold 25px 'Hind';
+}
+.text{
+    font: 25px 'Hind';
+}
+input[type=text]{
+    width: 70%;
+}
+
+#submit{
+    font: bold 20px 'Hind';
+    background-color: #000000;
+    color: white;
+    
+}
+#snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+.p1{
+    color: rgb(255, 250, 250);
+    font: bold 28px 'Muli', sans-serif;
+}
+.p3{
+    color: rgb(252, 252, 252);
+    font: bold 28px 'Muli', sans-serif;
+}
+.p2{
+    color: rgb(253, 251, 251);
+    font: bold 18px 'Muli', sans-serif;
+}
+.phone{
+    font: bold 18px 'Muli',sans-serif;
+    color: rgb(253, 250, 250);
+}
+.email{
+    font: bold 18px 'Muli',sans-serif;
+    color: rgb(250, 250, 250);
+}
+@media only screen and (max-width:812px){
+    .two{
+        font: bold 15px 'Hind';
+        color: rgb(252, 247, 247);
+    }
+    .phone{
+       
+    font: bold 15px 'Hind';
+    color: rgb(248, 246, 246);
+    }
+    .email{
+    font: bold 15px 'Hind';
+    color: rgb(255, 253, 253);
+    }
+ 
+    .container-fluid{
+        background-color:rgb(1, 9, 14);
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }   
+    
+    header{
+        font: italic 20px 'Creepster',Cursive;
+        color:rgb(253, 246, 246);
+        text-align: center; 
+    }
+    #mainNavBar a{
+        text-align: center;
+        font-size: 10px;
+        font: 10px 'Hind';
+    }
+    .box{
+    
+        border: 1px solid lightslategrey;
+        margin: 20px;
+        background-color: rgb(23, 214, 228);
+        box-shadow: 20px rgb(11, 226, 208);
+        padding: 20px;
+        border-radius: 5px;
+        opacity: 0.8;
+    }
+    textarea{
+        width: 70%;
+        height: 20%;
+    }
+    input[type=text]{
+        width: 70%;
+    }
+    h1{
+        text-align: center;
+        font: bold 30px 'Akronim';
+        color:rgb(119, 232, 247);
+    }
+    h2{
+        text-align: center;
+        font: bold 20px 'Hind';
+        color: rgb(146, 145, 145);
+    }
+    h3{
+        text-align: left;
+        font: bold 20px 'Hind';
+        color: antiquewhite;
+    }
+    .p2{
+        color: antiquewhite;
+        font: bold 15px 'Muli', sans-serif;
+    }
+    .firstname{ 
+        font: bold 15px 'Hind';
+    }
+    .lastname{
+        font: bold 15px 'Hind';  
+    }
+    .mail{
+        font: bold 15px 'Hind';
+    }
+    .message{
+        font: bold 15px 'Hind';
+    }
+    .text{
+        font: 15px 'Hind';
+    }
+    .phone{
+        font: bold 15px 'Muli',sans-serif;
+        color: antiquewhite;
+    }
+    .email{
+        font: bold 15px 'Muli',sans-serif;
+        color: antiquewhite;
+    }
+    #snackbar {
+        visibility: hidden;
+        min-width: 80px;
+        margin-left: -125px;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 2px;
+        position: fixed;
+        z-index: 1;
+        left: 65%;
+        bottom: 30px;
+        font-size: 10px;
+      }
+      
+      #snackbar.show {
+        visibility: visible;
+        -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+        animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      }
+    
+      #mainNavBar li {
+
+        display: block;
+        margin: 0;
+        margin-right: auto;
+        
+        }
+        li.one{
+          font: 18px 'Hind';
+            color: antiquewhite;
+          display: inline-block;
+          margin: 0px;
+          width: 20px;
+          margin-right:180px;
+          
+          }
+     
+}

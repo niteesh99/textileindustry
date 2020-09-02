@@ -1,0 +1,113 @@
+
+ body {
+    background-color: black;
+
+  }
+  .container-fluid{
+    color: rgb(44, 34, 34);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}  header{
+    font:  60px 'Satisfy';
+    color: rgb(3, 16, 53);
+    text-align: center; 
+}
+
+h1{
+    text-align: center;
+    font: bold 50px 'Berkshire Swash';
+    color:cyan;
+}
+h2{
+    color: ghostwhite;
+}
+h3{
+    
+    font: 22px 'Hind';
+    color: rgb(255, 255, 255);
+}
+p{
+    text-align: left;
+    font: 17px 'Hind';
+    color:rgb(97, 91, 91);
+}
+#mainNavBar li {
+
+    display: inline-block;
+    margin: 0;
+    margin-right: 20px;
+    
+    
+    }
+  #mainNavBar a{
+      text-align: center;
+      font: 18px 'Hind';
+      color: antiquewhite;
+  }
+  .navbar{
+    background-color: black; 
+    
+  }
+  li.one{
+    font: 18px 'Hind';
+      color: antiquewhite;
+    display: inline-block;
+    margin: 0;
+    margin-right:180px;
+    
+    }
+    #mainNavBar a:hover {
+      color: #0f23d6;
+    }
+@media only screen and (max-width:812px){
+    
+    .container-fluid{
+        background-color: rgb(5, 5, 5);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: fit-content;
+    }
+
+    h1{
+        text-align: center;
+        font: bold 25px 'Berkshire Swash' ;
+        color:cyan;
+    }
+    h3{
+        color:whitesmoke;
+        font-size: 18px;
+        text-align: left;
+    }
+    p{
+        text-align: left;
+        font: 15px 'Hind';
+        color: rgb(133, 129, 129);
+    }
+    li.one{
+      font: 18px 'Hind';
+        color: antiquewhite;
+      display: inline-block;
+      margin: 0px;
+      width: 20px;
+      margin-right:180px;
+      
+      }
+    
+  #mainNavBar a{
+    text-align: center;
+    font-size: 10px;
+    font: 10px 'Hind';
+}
+#mainNavBar li {
+  
+  display: block;
+  margin: 0;
+  margin-right: auto;
+  
+  }
+    
+}
+
+  
+  

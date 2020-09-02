@@ -1,0 +1,107 @@
+#mainNavBar li {
+
+  display: inline-block;
+  margin: 0;
+  margin-right: 20px;
+  
+  
+  }
+#mainNavBar a{
+    text-align: center;
+    font: 18px 'Hind';
+    color: antiquewhite;
+}
+.navbar{
+  background-color: black; 
+  
+}
+li.one{
+  font: 18px 'Hind';
+    color: antiquewhite;
+  display: inline-block;
+  margin: 0;
+  margin-right:180px;
+  
+  }
+  #mainNavBar a:hover {
+    color: #0f23d6;
+  }
+  
+.background{
+  background-image: url('https://images.pexels.com/photos/2692556/pexels-photo-2692556.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-repeat: repeat-x;
+  animation: slideleft 6000000s infinite linear;
+  -webkit-animation: slideleft 6000000s infinite linear;
+  background-size: cover;
+-webkit-background-size:cover;
+-moz-background-size:cover; 
+  background-attachment: fixed;
+  position: relative;
+min-height: 100vh;
+}
+.bg{
+  background: rgba(54, 53, 53, 0.7);
+min-height: 100vh;
+}
+
+@keyframes slideleft {
+  from {
+      background-position: 0%;
+  }
+  to {
+      background-position: 100%;
+  }
+}
+@-webkit-keyframes slideleft {
+  from {
+      background-position: 0%;
+  }
+  to {
+      background-position: 100%;
+  }
+}  
+.header-main {
+	max-width: 350px;
+	margin: 0 auto;
+	position: relative;
+  z-index: 999;
+  top: 200px;
+	padding: 3em 2em;   
+	background: rgba(255, 255, 255, 0.04);
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+}
+.p1 {
+	margin: 0 0 1em;
+	padding: .8em 1em;
+  background: black;
+  color: rgb(100, 202, 202);
+  font: bold 20px 'Hind';
+}
+
+  @media only screen and (max-width:812px){
+    li.one{
+      font: 18px 'Hind';
+        color: antiquewhite;
+      display: inline-block;
+      margin: 0px;
+      width: 20px;
+      margin-right:180px;
+      
+      }
+    
+  #mainNavBar a{
+    text-align: center;
+    font-size: 10px;
+    font: 10px 'Hind';
+}
+#mainNavBar li {
+  
+  display: block;
+  margin: 0;
+  margin-right: auto;
+  
+  }
+  }
+
